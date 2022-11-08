@@ -25,8 +25,13 @@ box-sizing: border-box;
     width: 150px;
     position: absolute;
     bottom: 0;
-    animation: jump 500ms ;
 }
+
+.jump {
+    animation: jump 500ms ease-out ;
+
+}
+
 
 @keyframes pipe-animation {
     from {
@@ -46,7 +51,7 @@ box-sizing: border-box;
         bottom: 180px;
     }
     50% {
-        bottom: 180px;
+        bottom: 200px;
     }
     60% {
         bottom: 180px;
