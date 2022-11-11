@@ -4,13 +4,24 @@ padding: 0;
 box-sizing: border-box;
 }
 
+.titulo {
+   color: aqua;
+}
+
 .game-board {
     width: 80%;
     height: 500px;
-    border: 1px solid #333;
+    border: 1px solid rgb(173, 173, 173);
     margin: 0 auto;
     position: relative;
     overflow: hidden;
+
+
+    /*    Neumorphism     */
+    border-radius: 9px;
+background: linear-gradient(145deg, #e6e1e1, #ffffff);
+box-shadow:  17px 17px 35px #878585,
+             -17px -17px 35px #ffffff;
 }
 
 .pipe {
@@ -51,7 +62,7 @@ box-sizing: border-box;
         bottom: 180px;
     }
     50% {
-        bottom: 200px;
+        bottom: 180px;
     }
     60% {
         bottom: 180px;
